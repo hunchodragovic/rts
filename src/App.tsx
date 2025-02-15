@@ -1,4 +1,5 @@
 import "./App.css";
+import Container from "./components/Container";
 import Heading from "./components/Heading";
 import SayHello from "./components/SayHello";
 
@@ -11,6 +12,7 @@ function App() {
       <SayHello>
         <Heading>This is a heading</Heading>
       </SayHello>
+      <Container styles={{ border: "1px solid black", padding: "1rem" }} />
     </>
   );
 }
