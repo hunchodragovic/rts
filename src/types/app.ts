@@ -1,6 +1,4 @@
-export type Product = {
-  id: number;
-  desc: string;
-  price: number;
+export type Userr = {
   name: string;
+  email: string;
 };
